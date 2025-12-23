@@ -14,13 +14,6 @@ class TextStyleHelper {
 
   static double get baseSize => PreferencesService.textSize.value;
   static String get fontFamily => PreferencesService.fontFamily.value;
-  
-  // Helper to get font family, but exclude Material Icons font
-  static String? _getTextFontFamily(String? fontFamily) {
-    // Never apply custom fonts to Material Icons
-    // Material Icons use their own font family which is handled automatically
-    return fontFamily;
-  }
 
   // Headings
   static TextStyle h1({Color? color, FontWeight? weight}) {

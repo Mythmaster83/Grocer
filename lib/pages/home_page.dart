@@ -3,7 +3,6 @@ import 'package:grocer_app/widgets/home/upcoming_shopping_display.dart';
 import 'package:grocer_app/pages/settings_page.dart';
 import 'package:grocer_app/services/preferences_service.dart';
 import 'package:grocer_app/services/home_refresh_service.dart';
-import 'package:grocer_app/utils/text_style_helper.dart';
 
 class HomePage extends StatefulWidget {
   final bool isDarkMode;

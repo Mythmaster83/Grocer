@@ -256,16 +256,13 @@ class ItemUnits {
     } else {
       // Check default units (case-insensitive)
       final lowerName = capitalized.toLowerCase();
-      bool found = false;
+      unitString = '1 unit'; // Default fallback
       for (final entry in _defaultUnits.entries) {
         if (entry.key.toLowerCase() == lowerName) {
           unitString = entry.value;
-          found = true;
           break;
         }
       }
-      unitString = '1 unit';
-
     }
     
     // Extract unit name (remove leading number and space)

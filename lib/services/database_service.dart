@@ -5,8 +5,6 @@ import 'package:grocer_app/models/list_item.dart';
 import 'package:grocer_app/models/grocery_list.dart';
 import 'package:grocer_app/utils/list_name_helper.dart';
 import 'package:grocer_app/services/speech_service.dart';
-import 'package:grocer_app/services/image_service.dart';
-import 'package:flutter/foundation.dart';
 
 import 'image_check_service.dart';
 

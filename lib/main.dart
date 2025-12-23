@@ -60,7 +60,7 @@ Future<void> main() async {
     
     // Start periodic image checks (every 15 minutes)
     ImageCheckService.startPeriodicChecks();
-  } catch (e, stackTrace) {
+  } catch (e) {
     // Handle initialization errors gracefully
     // Continue running the app even if some initialization fails
   }
